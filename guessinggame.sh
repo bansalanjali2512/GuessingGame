@@ -8,7 +8,7 @@ function readGuess {
 	read guess
 }
 function getTotalFiles {
-	totalFiles=$(ls -l | wc -l)
+	totalFiles=$(ls | wc -l)
 }
 
 readGuess
